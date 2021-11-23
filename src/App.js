@@ -7,7 +7,7 @@ function App() {
     <div className="App">
      <h1>18-homework</h1>
      <h2>Author: Vasyl Artus</h2>
-     <img srs={y} alt="yoda"/>
+     <img srс={y} alt="yoda"/>
     </div>
   );
 }
