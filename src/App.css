@@ -1,7 +1,7 @@
 body {
   padding: 20px;
   color: white;
-  background-color: rgb(151, 147, 143);
+  background-color: rgb(230, 225, 220);
   font-size: 28px;
  }
 .post {
@@ -44,22 +44,24 @@ body {
 }
 .user-nickname {
   margin-left: 30px;
+  margin-top: -20px;
   text-decoration: none;
   padding: 3px;
-  color: rgb(126, 126, 126);
+  color: rgb(80, 78, 78);
   grid-column-start: 2;
   grid-column-end: 3;
   grid-row-start: 0;
   grid-row-end: 1;
 }
 .post-date {
+  margin-top: -20px;
   padding: 3px;
-  color: rgb(126, 126, 126);
+  color: rgb(80, 78, 78);
   grid-column-start: 3;
   grid-column-end: 4;
   grid-row-start: 0;
   grid-row-end: 1;
-}
+} 
 .post-content {
   position: relative;
   top: -20px;
@@ -75,16 +77,3 @@ body {
   margin: 0 0 0 110px;
   border-radius: 20px;
 }
-.statistics {
-  margin: 0 0 0 110px;
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  color: rgb(126, 126, 126);
-}
-
-.statistics-comments,
-.statistics-shares,
-.statistics-likes,
-.statistics-save {
-  margin-left: 30px;
-} 
