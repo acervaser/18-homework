@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/18-homework/static/css/main.cf1c9603.chunk.css",
-    "main.js": "/18-homework/static/js/main.484a21b5.chunk.js",
-    "main.js.map": "/18-homework/static/js/main.484a21b5.chunk.js.map",
+    "main.css": "/18-homework/static/css/main.11b2cb83.chunk.css",
+    "main.js": "/18-homework/static/js/main.23831419.chunk.js",
+    "main.js.map": "/18-homework/static/js/main.23831419.chunk.js.map",
     "runtime-main.js": "/18-homework/static/js/runtime-main.37237d1a.js",
     "runtime-main.js.map": "/18-homework/static/js/runtime-main.37237d1a.js.map",
     "static/js/2.330481e3.chunk.js": "/18-homework/static/js/2.330481e3.chunk.js",
     "static/js/2.330481e3.chunk.js.map": "/18-homework/static/js/2.330481e3.chunk.js.map",
     "index.html": "/18-homework/index.html",
-    "static/css/main.cf1c9603.chunk.css.map": "/18-homework/static/css/main.cf1c9603.chunk.css.map",
+    "static/css/main.11b2cb83.chunk.css.map": "/18-homework/static/css/main.11b2cb83.chunk.css.map",
     "static/js/2.330481e3.chunk.js.LICENSE.txt": "/18-homework/static/js/2.330481e3.chunk.js.LICENSE.txt",
     "static/media/Yoda.755032ad.jpg": "/18-homework/static/media/Yoda.755032ad.jpg",
     "static/media/baby_yoda.03d314dc.jpg": "/18-homework/static/media/baby_yoda.03d314dc.jpg"
@@ -16,7 +16,7 @@
   "entrypoints": [
     "static/js/runtime-main.37237d1a.js",
     "static/js/2.330481e3.chunk.js",
-    "static/css/main.cf1c9603.chunk.css",
-    "static/js/main.484a21b5.chunk.js"
+    "static/css/main.11b2cb83.chunk.css",
+    "static/js/main.23831419.chunk.js"
   ]
 }
