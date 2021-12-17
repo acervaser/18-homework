@@ -77,3 +77,39 @@ body {
   margin: 0 0 0 110px;
   border-radius: 20px;
 }
+
+.statistics {
+  margin: 0 0 0 110px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  color: rgb(126, 126, 126);
+}
+
+.statistics_comments::before,
+.statistics_shares::before,
+.statistics_likes::before,
+.statistics_save {
+     position: relative; 
+    top: 15px;
+     left: -20px; 
+}
+
+
+.statistics_likes::before {
+  content: url(./assests/img/likes.png);
+}
+.statistics_comments::before {
+    content: url(./assests/img/comments.png);
+}
+
+.statistics_shares::before {
+    content: url(./assests/img/shares.png);
+}
+
+
+.statistics_save {
+    content: url(./assests/img/save.png);
+    top: 10px;
+}
+
+

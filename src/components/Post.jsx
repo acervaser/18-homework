@@ -1,5 +1,6 @@
 import React from "react";
 import UserInfo from "./UserInfo";
+import Statistics from "./Statistics";
 import Baby from "../assests/img/baby_yoda.jpg";
 import Yoda from "../assests/img/Yoda.jpg";
 
@@ -16,6 +17,11 @@ const postData = {
     date: day.getDate()
 };
 
+const statistics = {
+    comments: 482,
+    shares: 146,
+    likes: 887
+}
 const Post = () => {
     return (
         <div className="post">
@@ -25,6 +31,7 @@ const Post = () => {
                 <span className="post-content">{postData.content}</span>
             </div>
             <img className="post-image" src={postData.image} alt="Some post" />
+            <Statistics comments={statistics.comments} shares={statistics.shares} likes={statistics.likes}/>
         </div>
     );
 };
